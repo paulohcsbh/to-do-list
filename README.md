@@ -1,5 +1,5 @@
 # **TO-DO LIST** 📝
->_To-do List construída em HTML, CSS  e Javascript._
+>_To-do List desenvolvida em HTML, CSS  e Javascript._
 
 Uma aplicação que não deixa você esquecer nenhuma das suas tarefas.
 >
