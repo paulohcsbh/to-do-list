@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 0;
+    font-family: 'Roboto', sans-serif;   
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5dc;
+    
+}
+.general{
+    width: 45%;
+    margin: auto;    
+    
+}
+header{   
+    height: 13.75em;
+    border-bottom:1px solid #787878 ;
+    padding:30px 0 0 20px;    
+    background-color: #726A95;
+    border-radius: .5em;
+}
+header h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;    
+}
+header input{
+    width: 60%;
+    height: 40px;
+    padding-left: 6px;
+}
+
+header button{
+    width: 90px;
+    height: 38px;
+    font-size: 15px;
+    background-color: #F5DDAA;
+    border: transparent;
+}
+header button:hover{
+    opacity:0.7;
+}
+header button:active{    
+    height:35px;
+}
+main ul {
+    width: 100%;       
+    padding: 20px 0 0 25px;
+    border: 1px solid #787878;    
+    border-radius: 6px;
+    background-color: #fff;
+}
+main ul li{
+    width: 95%;
+    height: 50px;
+    border: 1px solid #fafafa;
+    border-radius: 6px;
+    display: flex;    
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    z-index: 5;
+    box-shadow: 2px 2px 4px 4px  rgba(0, 0, 0, 0.3);
+    position: relative;
+    background-color: #fff;
+    
+}
+main ul li .checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 3px solid #726A95;
+}    
+.checkbox p{
+    color: #000;
+}
+
+main ul li span{
+    width: 280px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 50px;    
+    display: flex;
+    align-items: center;   
+    word-wrap: break-word; 
+}
+main ul li ion-icon{
+    width: 30px;
+    height: 20px;   
+}
+ion-icon:hover{
+    color: blue;
+    height: 40px;
+}
+.trash:hover{
+    color: red;
+   height: 40px;
+}
+ion-icon:active{
+    height: 20px;
+}
+.trash:active{
+    height: 20px;
+}
+.classFeito{
+    
+    text-decoration: line-through;
+}
+.sumido{
+    display: none;
+}
+.edit-box{
+    width: 400px;
+    height: 50px;
+    background-color: #726A95;
+    border: 1px solid #fafafa;
+    border-radius: 6px;
+    margin: 30px 0 0px 30px;     
+    padding: 15px 20px;    
+    z-index: 10;
+    box-shadow: 2px 2px 4px 4px  rgba(0, 0, 0, 0.3);
+    position: absolute;
+}
+ @media (max-width: 56em){
+    .general{
+        width: 100%;       
+    }  
+ }
+ @media (max-width: 56em){
+    .general{
+        width: 100%;       
+    }  
+ }
